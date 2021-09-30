@@ -1,0 +1,53 @@
+/* Basic Settings */
+:root {
+  --primary-text-color: #32617d;
+  --primary-link-color: #17c3b2;
+  --blue: #32617d;
+  --sea-green: #17c3b2;
+  --yellow: #ffcb77;
+  --floral-white: #fef9ef;
+  --light-coral: #fe6d73;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 1px;
+}
+
+img {
+  max-width: 100%;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+h2,
+p {
+  text-align: center;
+}
+
+h2 {
+  display: block;
+  position: relative;
+  margin: 5rem auto 2rem;
+}
+
+h2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  transform: translate(-50%);
+  background-color: var(--light-coral);
+}
+
+/* Start styling here */
